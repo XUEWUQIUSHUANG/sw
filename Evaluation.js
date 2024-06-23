@@ -1,5 +1,4 @@
-function () {
-    for (const i in $('.jqx-radiobutton-input')) {
+for (const i in $('.jqx-radiobutton-input')) {
         if (i % 5 === 0)
             $('.jqx-radiobutton-input')[i].click();
     }
@@ -10,4 +9,3 @@ function () {
     setTimeout(() => {
         $('.bh-color-primary-5')[0].click();
     }, 100);
-}()

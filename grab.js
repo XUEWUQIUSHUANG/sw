@@ -1,4 +1,3 @@
-function () {
 const Authorization = document.cookie.split('=')[1];
 const XGXKLB = { 默认: 0, A: 12, B: 13, C: 14, D: 15, E: 16, F: 17, A0: 18 };
 
@@ -112,4 +111,3 @@ _frost.addEventListener('click', () => {
     _frost.style.backgroundColor = 'gray';
     _frost.style.cursor = 'not-allowed';
 })
-}()
